@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -34,6 +35,11 @@ public class MyTestCases {
 		caps.setCapability(MobileCapabilityType.APP, myApplication.getAbsolutePath());
 
 	}
+// this => @BeforeMethod is excute before each test 
+//	@BeforeMethod
+//	public void mosab() throws MalformedURLException {
+//		driver = new AndroidDriver(new URL(AppiumURL), caps);
+//	}
 
 	@Test(enabled = false)
 	public void addTwoNum() throws MalformedURLException {
@@ -103,9 +109,6 @@ public class MyTestCases {
 			}
 
 		}
-//		String actual = driver.findElement(By.id("com.google.android.calculator:id/formula")).getText();
-//		String expected = "7894561230";
-//		Assert.assertEquals(actual, expected);
 
 	}
 }

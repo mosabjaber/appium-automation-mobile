@@ -2,16 +2,20 @@
 <testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-15T14:31:46 EET" name="Default suite" finished-at="2024-11-15T14:32:00 EET" duration-ms="13456">
+  <suite started-at="2024-11-17T22:43:03 EET" name="Default suite" finished-at="2024-11-17T22:43:41 EET" duration-ms="37419">
     <groups>
     </groups>
-    <test started-at="2024-11-15T14:31:46 EET" name="Default test" finished-at="2024-11-15T14:32:00 EET" duration-ms="13456">
+    <test started-at="2024-11-17T22:43:03 EET" name="Default test" finished-at="2024-11-17T22:43:41 EET" duration-ms="37419">
       <class name="mobileTesting.MyTestCases">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:mobileTesting.MyTestCases@1189dd52]" started-at="2024-11-15T14:31:46 EET" name="mySetup" finished-at="2024-11-15T14:31:46 EET" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:mobileTesting.MyTestCases@49ec71f8]" started-at="2024-11-17T22:43:03 EET" name="mySetup" finished-at="2024-11-17T22:43:03 EET" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="clickEvenNum()[pri:0, instance:mobileTesting.MyTestCases@1189dd52]" started-at="2024-11-15T14:31:46 EET" name="clickEvenNum" finished-at="2024-11-15T14:32:00 EET" duration-ms="13424" status="PASS">
+        <test-method is-config="true" signature="mosab()[pri:0, instance:mobileTesting.MyTestCases@49ec71f8]" started-at="2024-11-17T22:43:03 EET" name="mosab" finished-at="2024-11-17T22:43:35 EET" duration-ms="32015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mosab -->
+        <test-method signature="clickEvenNum()[pri:0, instance:mobileTesting.MyTestCases@49ec71f8]" started-at="2024-11-17T22:43:35 EET" name="clickEvenNum" finished-at="2024-11-17T22:43:41 EET" duration-ms="5358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickEvenNum -->
